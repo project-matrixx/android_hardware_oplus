@@ -25,6 +25,7 @@ ro.oppo.                                              u:object_r:exported_system
 ro.oplus.                                             u:object_r:exported_system_prop:s0
 ro.vendor.oplus.                                      u:object_r:exported_system_prop:s0
 ro.vendor.gfx.                                        u:object_r:exported_system_prop:s0
+sys.oplus.                                            u:object_r:exported_system_prop:s0
 sys.oppo_ftm_mode                                     u:object_r:exported_system_prop:s0
 vendor.aps.                                           u:object_r:exported_system_prop:s0
 vendor.arcsoft.                                       u:object_r:exported_system_prop:s0
