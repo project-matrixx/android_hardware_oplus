@@ -2,6 +2,8 @@ typeattribute platform_app hal_camera_client;
 
 allow platform_app hal_dms_hwservice:hwservice_manager find;
 
+allow platform_app vendor_hal_performance_hwservice:hwservice_manager find;
+
 allow platform_app fwk_osense_aidl_service:service_manager find;
 allow platform_app oem_service:service_manager find;
 
@@ -9,6 +11,9 @@ allow platform_app vendor_persist_camera_file:dir search;
 
 allow platform_app selinuxfs:file r_file_perms;
 allow platform_app vendor_xdsp_device:chr_file r_file_perms;
+
+allow platform_app vendor_camera_update_data_file:dir rw_dir_perms;
+allow platform_app vendor_camera_update_data_file:file create_file_perms;
 
 rw_dir_file(platform_app, oplus_scheduler_sched_assist_proc)
 

@@ -5,7 +5,7 @@ type vendor_hal_cameraMDM_hwservice, hwservice_manager_type, protected_hwservice
 # Cryptoeng
 type hal_cryptoeng_hwservice, hwservice_manager_type;
 
-# ORMS
+# Charger
 type vendor_hal_charger_hwservice, hwservice_manager_type, protected_hwservice;
 
 # Dolby
@@ -13,6 +13,9 @@ type hal_dms_hwservice, hwservice_manager_type;
 
 # ORMS
 type vendor_hal_orms_hwservice, hwservice_manager_type, protected_hwservice;
+
+# Performance
+type vendor_hal_performance_hwservice, hwservice_manager_type, protected_hwservice;
 
 # Sensors
 type vendor_hal_oplusSensor_hwservice, hwservice_manager_type, protected_hwservice;
