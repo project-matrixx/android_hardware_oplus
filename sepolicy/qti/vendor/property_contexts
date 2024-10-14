@@ -1,3 +1,7 @@
+# Audio
+ro.vendor.oplus.audiodriver.operator    u:object_r:vendor_audio_debug_prop:s0
+ro.vendor.oplus.regionmark              u:object_r:vendor_audio_debug_prop:s0
+
 # Camera
 persist.vendor.apsSN.algo.enable       u:object_r:vendor_camera_prop:s0
 persist.vendor.aps                     u:object_r:vendor_camera_prop:s0
